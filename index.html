@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MSQUARE STUDIO | Creative Films & Visuals</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+
+  
+<!-- NAVBAR -->
+<header class="navbar">
+
+    <div class="logo">
+        <a href="#home" class="brand-name">MSQUARE</a>
+    </div>
+
+    <nav class="nav-links" id="navLinks">
+
+        <a href="#home" class="active">
+            <i class="fa-solid fa-house"></i> Home
+        </a>
+
+        <a href="#about">
+            <i class="fa-solid fa-user"></i> About
+        </a>
+
+        <a href="#works">
+            <i class="fa-solid fa-layer-group"></i> Our Works
+        </a>
+
+        <a href="#" id="viewCV">
+            <i class="fa-solid fa-file-lines"></i> View CV
+        </a>
+
+        <a href="#contact">
+            <i class="fa-solid fa-envelope"></i> Contact
+        </a>
+
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle"
+            aria-label="Open navigation menu">
+        ☰
+    </button>
+
+</header>
+
+   
+<!-- HOME HERO SECTION -->
+
+<section class="hero" id="home">
+
+    <div class="hero-glow"></div>
+
+    <!-- LEFT SIDE CONTENT -->
+    <div class="hero-content">
+
+        <p class="hero-label">
+            CREATIVE FILM & VISUAL STUDIO
+        </p>
+
+        <h1>
+            WHERE STORIES<br>
+            <span>BECOME CONTENT.</span>
+        </h1>
+
+        <p class="hero-description">
+            We transform your vision into stunning visuals
+            through cinematic editing, creative filmmaking
+            and powerful storytelling.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#works" class="btn-primary">
+                EXPLORE OUR WORK ↗
+            </a>
+
+            <a href="#contact" class="btn-secondary">
+                LET'S COLLABORATE
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE LOGO -->
+    <div class="hero-logo-area">
+
+        <div class="hero-logo-glow"></div>
+
+        <img src="images/logo.png"
+             alt="MSQUARE Studio"
+             class="hero-main-logo">
+
+        <p>YOUR VISION. OUR CREATIVITY. YOUR SUCCESS.</p>
+
+    </div>
+
+    <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE ↓</span>
+    </div>
+
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about-section" id="about">
+
+    <div class="about-container">
+
+        <div class="about-heading">
+            <span class="about-label">ABOUT MSQUARE STUDIO</span>
+
+            <h2>
+                EVERY FRAME HAS A STORY.
+                <span>EVERY STORY DESERVES AN IDENTITY.</span>
+            </h2>
+        </div>
+
+        <div class="about-description">
+            <p>
+                At MSQUARE Studio, we transform your vision into
+                stunning visuals through cinematic editing, creative
+                filmmaking, and powerful storytelling.
+            </p>
+
+            <p>
+                We don't just create videos; we create experiences
+                that leave a lasting impression.
+            </p>
+        </div>
+
+        <div class="about-cta">
+            <span class="about-label">LET'S CREATE SOMETHING AMAZING</span>
+
+            <h3>HAVE A STORY TO TELL?</h3>
+
+            <p>
+                Let's bring your vision to life! Partner with MSQUARE
+                Studio and turn your ideas into cinematic experiences
+                that captivate audiences, inspire emotions, and make
+                your brand unforgettable.
+            </p>
+
+            <h4>
+                YOUR VISION.
+                <span>OUR CREATIVITY.</span>
+                YOUR SUCCESS.
+            </h4>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     OUR WORKS SECTION
+========================= -->
+
+<section class="works-section" id="works">
+
+    <div class="works-container">
+
+        <div class="works-heading">
+            <span class="works-label">OUR CREATIVE WORLD</span>
+            <h2>SELECTED <span>WORKS.</span></h2>
+            <p>
+                A collection of stories, visuals and creative
+                experiences crafted by MSQUARE STUDIO.
+            </p>
+        </div>
+
+        <!-- PROJECT FILTERS -->
+        <div class="works-filters">
+            <button class="filter-btn active" data-filter="all">ALL PROJECTS</button>
+            <button class="filter-btn" data-filter="promos">PROMOS</button>
+            <button class="filter-btn" data-filter="reels">REELS</button>
+            <button class="filter-btn" data-filter="shortfilms">SHORT FILMS</button>
+            <button class="filter-btn" data-filter="candid">CANDID VIDEOS</button>
+            <button class="filter-btn" data-filter="gfx">GFX</button>
+            <button class="filter-btn" data-filter="photoshop">PHOTOSHOP WORKS</button>
+        </div>
+
+        <div class="works-grid">
+
+            <!-- PROMOS -->
+            <a href="https://drive.google.com/drive/folders/1eezWC7XMh9wuL3VRVOGdms7eqeoY17Qj"
+               class="work-card" data-category="promos"
+               target="_blank" rel="noopener noreferrer">
+
+                <div class="work-card-heading">
+                    <span class="work-glass-icon">▶</span>
+                    <h3>PROMOS</h3>
+                </div>
+
+                <div class="work-image promo-image">
+                    <video autoplay muted loop playsinline preload="metadata">
+                        <source src="videos/promos/promo1.mp4" type="video/mp4">
+                    </video>
+                    <span class="work-arrow">↗</span>
+                    <div class="work-overlay"></div>
+                    <span class="work-view-label">VIEW VIDEO</span>
+                </div>
+
+                <div class="work-info">
+                    <span>Explore Collection ↗</span>
+                    <span class="work-number">01</span>
+                </div>
+            </a>
+
+            <!-- REELS -->
+            <a href="https://drive.google.com/drive/folders/1CmLB0Y_6sdnMbIs5WBWDGkkx1i6tOXzO"
+               class="work-card" data-category="reels"
+               target="_blank" rel="noopener noreferrer">
+
+                <div class="work-card-heading">
+                    <span class="work-glass-icon">▶</span>
+                    <h3>REELS</h3>
+                </div>
+
+                <div class="work-image reels-image">
+                    <video autoplay muted loop playsinline preload="metadata">
+                        <source src="videos/reels/reel1.mp4" type="video/mp4">
+                    </video>
+                    <span class="work-arrow">↗</span>
+                    <div class="work-overlay"></div>
+                    <span class="work-view-label">VIEW VIDEO</span>
+                </div>
+
+                <div class="work-info">
+                    <span>Explore Collection ↗</span>
+                    <span class="work-number">02</span>
+                </div>
+            </a>
+
+            <!-- SHORT FILMS -->
+            <a href="https://drive.google.com/drive/folders/1QrSm_aHe_PMhwVIIqCRHkd7Rubfdp5wG"
+               class="work-card" data-category="shortfilms"
+               target="_blank" rel="noopener noreferrer">
+
+                <div class="work-card-heading">
+                    <span class="work-glass-icon">🎬</span>
+                    <h3>SHORT FILMS</h3>
+                </div>
+
+                <div class="work-image shortfilm-image">
+                    <video autoplay muted loop playsinline preload="metadata">
+                        <source src="videos/shortflims/shortfilm1.mp4" type="video/mp4">
+                    </video>
+                    <span class="work-arrow">↗</span>
+                    <div class="work-overlay"></div>
+                    <span class="work-view-label">VIEW VIDEO</span>
+                </div>
+
+                <div class="work-info">
+                    <span>Explore Collection ↗</span>
+                    <span class="work-number">03</span>
+                </div>
+            </a>
+
+            <!-- CANDID VIDEOS -->
+            <a href="https://drive.google.com/drive/folders/1JWb233lYfKSrW4sivr7KF18KHlhynl_w"
+               class="work-card" data-category="candid"
+               target="_blank" rel="noopener noreferrer">
+
+                <div class="work-card-heading">
+                    <span class="work-glass-icon">✦</span>
+                    <h3>CANDID VIDEOS</h3>
+                </div>
+
+                <div class="work-image candid-image">
+                    <video autoplay muted loop playsinline preload="metadata">
+                        <source src="videos/candid/candid1.mp4" type="video/mp4">
+                    </video>
+                    <span class="work-arrow">↗</span>
+                    <div class="work-overlay"></div>
+                    <span class="work-view-label">VIEW VIDEO</span>
+                </div>
+
+                <div class="work-info">
+                    <span>Explore Collection ↗</span>
+                    <span class="work-number">04</span>
+                </div>
+            </a>
+
+            <!-- GFX -->
+            <a href="https://drive.google.com/drive/folders/1kENKNqBPAIk-7egsj-fbR9adFECZmK2Y"
+               class="work-card" data-category="gfx"
+               target="_blank" rel="noopener noreferrer">
+
+                <div class="work-card-heading">
+                    <span class="work-glass-icon">✧</span>
+                    <h3>GFX</h3>
+                </div>
+
+                <div class="work-image gfx-image">
+                    <video autoplay muted loop playsinline preload="metadata">
+                        <source src="videos/gfx/gfx1.mp4" type="video/mp4">
+                    </video>
+                    <span class="work-arrow">↗</span>
+                    <div class="work-overlay"></div>
+                    <span class="work-view-label">VIEW VIDEO</span>
+                </div>
+
+                <div class="work-info">
+                    <span>Explore Collection ↗</span>
+                    <span class="work-number">05</span>
+                </div>
+            </a>
+
+            <!-- PHOTOSHOP WORKS -->
+            <a href="https://drive.google.com/drive/folders/1cOcCoeMw5kdrYAGL4VT-7IqqyheydRmR"
+               class="work-card" data-category="photoshop"
+               target="_blank" rel="noopener noreferrer">
+
+                <div class="work-card-heading">
+                    <span class="work-glass-icon">✎</span>
+                    <h3>PHOTOSHOP WORKS</h3>
+                </div>
+
+                <div class="work-image photoshop-image">
+                    <img src="images/photoshop1.jpg" alt="Photoshop Works">
+                    <span class="work-arrow">↗</span>
+                    <div class="work-overlay"></div>
+                    <span class="work-view-label">VIEW WORK</span>
+                </div>
+
+                <div class="work-info">
+                    <span>Explore Collection ↗</span>
+                    <span class="work-number">06</span>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- CV POPUP -->
+<div class="cv-modal" id="cvModal">
+    <div class="cv-modal-content">
+        <button class="cv-close" id="closeCV">&times;</button>
+        <img src="images/resume.jpg" alt="My CV">
+    </div>
+</div>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contact">
+
+    <div class="contact-container">
+
+        <div class="contact-left">
+            <span class="contact-label">GET IN TOUCH</span>
+
+            <h2>
+                LET'S CREATE
+                <span>SOMETHING GREAT.</span>
+            </h2>
+
+            <p>
+                Have a story to tell or a creative project in mind?
+                Let's connect and turn your vision into something
+                unforgettable.
+            </p>
+
+            <h3>YOUR NEXT STORY STARTS HERE.</h3>
+        </div>
+
+        <div class="contact-right">
+
+            <a href="mailto:msquare295@gmail.com" class="contact-item">
+                <span class="contact-icon">✉</span>
+                <div>
+                    <small>EMAIL US</small>
+                    <h4>msquare295@gmail.com</h4>
+                </div>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="tel:8838934568" class="contact-item">
+                <span class="contact-icon">✆</span>
+                <div>
+                    <small>CALL US</small>
+                    <h4>88389 34568</h4>
+                </div>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="https://www.instagram.com/msquare0529/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-item">
+                <span class="contact-icon">◎</span>
+                <div>
+                    <small>FOLLOW US</small>
+                    <h4>Instagram</h4>
+                </div>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     FOOTER SECTION
+========================= -->
+
+<footer class="footer-section">
+    <div class="footer-container">
+
+        <div class="footer-top">
+            <p>CREATIVE FILM & VISUAL STUDIO</p>
+            <a href="#contact">LET'S CONNECT ↗</a>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <div class="footer-brand">
+                <h2>MSQUARE<span>.</span></h2>
+                <p>Where Stories Become Content</p>
+            </div>
+
+            <p class="footer-copyright">
+                © 2026 MSQUARE STUDIO. ALL RIGHTS RESERVED.
+            </p>
+        </div>
+
+    </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
+
